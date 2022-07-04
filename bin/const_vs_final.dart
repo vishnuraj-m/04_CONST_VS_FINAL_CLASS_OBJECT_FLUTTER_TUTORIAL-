@@ -1,5 +1,12 @@
-import 'package:const_vs_final/const_vs_final.dart' as const_vs_final;
+void main() {
+  // !final
+  final String name;
+  name = 'vishnu';
+  // name = 'rajan';
 
-void main(List<String> arguments) {
-  print('Hello world: ${const_vs_final.calculate()}!');
+  // !List final
+  final List<int> numberList;
+  numberList = List.empty();
+  numberList.add(1);
+  numberList.add(100);
 }
